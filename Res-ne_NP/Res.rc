@@ -1,0 +1,34 @@
+# include <WinResrc.h>
+# include "..\\CommonLangIDs.h"
+
+LANGUAGE LANG_NEPALI, SUBLANG_NEPALI_NEPAL
+# pragma code_page(57002)
+
+STRINGTABLE
+{
+	IDS_MAIN_WINDOW_CLASS				L"OCR Engine Class"
+	IDS_MAIN_WINDOW_TITLE				L"OCR Engine"
+	IDS_SPLASH_WINDOW_CLASS				L"Splash Class"
+	IDS_SPLASH_WINDOW_TITLE				L"Pankh Splash"
+
+	IDS_W_REG_FAIL						L"Window Registration Failed"
+	IDS_W_CREATE_FAIL					L"Window Creation Failed"
+	IDS_W_UL_FAIL						L"Update Layered Window Failed"
+	IDS_BM_LOAD_FAIL					L"Load Image Failed"
+	IDS_THREAD_FAIL						L"CreateThread Failed"
+	
+	IDS_EXIT							L"Exit"
+	IDS_ABOUT							L"About"
+	IDS_NOTIFICATION_ID					L"Pankh OCR Engine"
+	IDS_NOTIFICATION_TITLE				L"Engine"
+	IDS_NOTIFICATION_BEGIN				L"Working..."
+	IDS_NOTIFICATION_END				L"Completed! Exiting."
+	IDS_NOTIFICATION_FINISHED			L"Finished: "
+
+	IDS_ERROR							L"Error:"
+
+	INC_VALUE_ID(PLAY_END_SOUND)		L"Play End Sound"
+	INC_VALUE_ID(SHOW_NOTIFICATIONS)	L"Show Notifications"
+	INC_VALUE_ID(SHOW_SPLASH)			L"Show Splash Screen"
+//	INC_VALUE_ID()	L""
+}
