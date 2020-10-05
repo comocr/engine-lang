@@ -72,28 +72,28 @@
     <IntDir>$(OutDir)Interim\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetExt>.mui</TargetExt>
-    <TargetName>$(ProjectName).DLL</TargetName>
+    <TargetName>Res.DLL</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\Engine\Lang\$(ProjectName)\</OutDir>
     <IntDir>$(OutDir)Interim\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetExt>.mui</TargetExt>
-    <TargetName>$(ProjectName).DLL</TargetName>
+    <TargetName>Res.DLL</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)\x86\$(Configuration)\Engine\$(ProjectName)\</OutDir>
     <IntDir>$(OutDir)Interim\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.mui</TargetExt>
-    <TargetName>$(ProjectName).DLL</TargetName>
+    <TargetName>Res.DLL</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\Engine\Lang\$(ProjectName)\</OutDir>
     <IntDir>$(OutDir)Interim\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.mui</TargetExt>
-    <TargetName>$(ProjectName).DLL</TargetName>
+    <TargetName>Res.DLL</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -106,7 +106,7 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).DLL.mui</OutputFile>
+      <OutputFile>$(OutDir)Res.DLL.mui</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -126,7 +126,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).DLL.mui</OutputFile>
+      <OutputFile>$(OutDir)Res.DLL.mui</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX64</TargetMachine>
@@ -147,7 +147,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).DLL.mui</OutputFile>
+      <OutputFile>$(OutDir)Res.DLL.mui</OutputFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -170,7 +170,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).DLL.mui</OutputFile>
+      <OutputFile>$(OutDir)Res.DLL.mui</OutputFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
